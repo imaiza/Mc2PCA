@@ -1,3 +1,8 @@
+
+# Disclaimer: in the development of the project, the MTS were called "colada". These MTS are located in a column called 'Fichero'.
+
+
+
 def Mc2PCA(df, num_clust, p, num_iter):
     
     '''
@@ -17,7 +22,8 @@ def Mc2PCA(df, num_clust, p, num_iter):
     - colada_classif: dictionary with the final clustering result
     - proj_centroids: centroids of the final clusters
     - error_array: matrix of the errors (of all MTS on all clusters)
- 
+    
+    
     '''
         
     # First we create the covariance matrices dictionary
